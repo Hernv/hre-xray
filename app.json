@@ -1,0 +1,30 @@
+﻿{
+  "name": "Hernv hre /-xray",
+  "description": "将xray部署在Heroku上",
+  "keywords": [
+    "v2ray VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "feab2428-ea2a-492f-8d41-4ebb1a16375d",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "如果出现错误，请检查参数格式或重试。要使用自定义参数，请务必先充分理解其含义",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/Hernv hre /-xray",
+  "repository": "https://github.com/Hernv hre /-xray",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
